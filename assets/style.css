@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.main .footer{
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+.main .social{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main .social a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.main .social a img{
+    width: 25px;
+}
